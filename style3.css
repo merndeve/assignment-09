@@ -1,0 +1,87 @@
+
+.container{
+    width: 1100px;
+    margin: auto;
+}
+.head{
+    text-align: center;
+}
+.menu{
+    background-color: cadetblue;
+    text-align: center;
+}
+.head li{
+   list-style: none;
+   display: inline-block;
+   padding: 15px 10px;
+}
+.head li a{
+   text-decoration: none;
+   font-size: 20px;
+   color: white;
+   padding: 13px 10px 11px 10px;
+}
+.head li a:hover{
+   color: rgb(207, 8, 8);
+   background-color: green;
+   
+}
+.img-div{
+    background-color: rgb(145, 196, 179);
+    padding: 60px 40px;
+    margin-top: -21px;
+    
+    
+}
+.main-image{
+    width: 400px;
+    height: 250px;
+    margin: 0 10px;
+    box-shadow: 5px 4px 10px #c8b64c;
+    
+}
+/* list section */
+.food{
+    background-color: rgb(68, 146, 120);
+    text-align: center;
+    padding: 20px 0;
+}
+.food li{
+    list-style: none;
+    padding: 10px 0;
+}
+.food li:nth-child(1){
+    color: white;
+    font-size: 25px;
+}
+.food :nth-child(2){
+    color: brown;
+    font-size: 25px;
+    font-weight: bold;
+}
+.food li:nth-child(3){
+    color: rgba(245, 221, 11, 0.568);
+    font-size: 25px;
+    font-weight: bold;
+}
+.food li:nth-child(4){
+    color: orange;
+    font-size: 25px;
+    font-weight: bold;
+}
+.food li:nth-child(5){
+    color: rgb(119, 10, 83);
+    font-size: 25px;
+    font-weight: bold;
+}
+/* footer */
+.footer{
+    background-color: rgb(8, 80, 56);
+    text-align: center;
+}
+.footer li{
+    list-style: none;
+    padding: 8px 0;
+    color: white;
+    font-size: 20px;
+}
